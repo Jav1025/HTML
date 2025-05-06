@@ -1,0 +1,43 @@
+body{
+    background-color: #252525;
+    font-family: Arial;
+}
+#main-container{
+    margin: 150px auto;
+    width: 1000px;
+}
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border: solid 2px rgb(12, 219, 150);
+    padding: 20px;
+}
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #6d6a6a;
+}
+tr:hover, td{
+    background-color: #369681;
+    color: white;
+}
+.btn.btn-dark {
+    background-color: #333 !important; /* Cambia el color de fondo */
+    border-color: #221f1f !important; /* Cambia el color del borde */
+    color: #fff !important; /* Cambia el color del texto */
+    font-size: 1.2rem; /* Cambia el tamaño de la fuente */
+    padding: 10px 20px; /* Cambia el padding */
+    border-radius: 10px; /* Cambia el radio de los bordes */
+}
+
+.btn.btn-dark:hover {
+    background-color: #a86363 !important; /* Cambia el color de fondo al hacer hover */
+    border-color: #666 !important; /* Cambia el color del borde al hacer hover */
+}
